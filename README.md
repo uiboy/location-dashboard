@@ -7,7 +7,7 @@ with an overview of the temperature forecast and flight expenses for that locati
 The forecast data is being populated from a real API, (AccuWeather Forecast API) while 
 the flight expense data is mocked in the view layer.
 
-The project overview explains the technical architecure of the project. It in intentionally
+The project overview explains the technical architecure of the project. It is intentionally
  production like. For other choices, improvements and key considerations
 see the Key Considerations section.
  
