@@ -96,15 +96,19 @@ information about cost of living, etc. based on which Jamie can click a city and
 2. The free forecast API provides data only for the next 5 days. So that is used currently. Technically we could show more days or aggregates over months depending
 on how long Jamie plans to stay in the next location.
 
-3. While the page is minimally responsive, with more time I would have made more
+3. The dashboard is focused heavily on weather currently, making the assumption that
+the flight cost is just a one time cost and Jamie would make a big decision like
+moving to another place based more on weather or cost of living.
+
+4. While the page is minimally responsive, with more time I would have made more
 changes like adding a downward arrow on mobile to let users know the cities
 are tappable. The layout on mobile can also be improved like the flights info section.
 
-4. Currently, of course there is no "Action" button on  the page. i.e Jamie cant really
+5. Currently, of course there is no "Action" button on  the page. i.e Jamie cant really
 select a city and go somewhere. But thats intentionally left out to keep the scope 
 minimal for the given time frame.
 
-5. Improvement: Would have loved to add some Sunnny/Cloudy icons next to the temperature.
+6. Would have loved to add some Sunnny/Cloudy icons next to the temperature.
 
 Technical Improvements
 
