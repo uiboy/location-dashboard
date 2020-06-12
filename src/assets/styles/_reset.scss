@@ -1,0 +1,31 @@
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body and html defaults */
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  font-family: "Fakt", sans-serif, Helvetica, Arial;
+  margin: 0;
+  flex: 1;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
