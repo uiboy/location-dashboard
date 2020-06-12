@@ -179,6 +179,12 @@ h3 {
     @include for-size(phone-only) {
       border-radius: 0;
     }
+    .content {
+      color: $primary-text-color;
+      h3 {
+        color: $primary-text-color;
+      }
+    }
   }
 }
 
