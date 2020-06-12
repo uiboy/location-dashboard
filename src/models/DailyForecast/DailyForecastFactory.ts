@@ -3,7 +3,6 @@ import { DailyForecastData } from '@/types/models/DailyForecastData';
 import IDailyForecast from '@/models/DailyForecast/IDailyForecast';
 import DailyForecast from '@/models/DailyForecast/DailyForecast';
 
-
 class DailyForecastFactory extends IModelFactory<IDailyForecast> {
   make(data: DailyForecastData): IDailyForecast {
     return new DailyForecast(data);
